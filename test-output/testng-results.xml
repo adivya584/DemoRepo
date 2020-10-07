@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18856" started-at="2020-09-24T16:49:29Z" finished-at="2020-09-24T16:49:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18856" started-at="2020-09-24T16:49:29Z" finished-at="2020-09-24T16:49:48Z">
+      <class name="Demo.Qa.Tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Demo.Qa.Tests.LoginPageTest@2133c8f8]" name="setUp" is-config="true" duration-ms="11528" started-at="2020-09-24T22:19:29Z" finished-at="2020-09-24T22:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:Demo.Qa.Tests.LoginPageTest@2133c8f8]" name="LoginPageTitleTest" duration-ms="89" started-at="2020-09-24T22:19:41Z" finished-at="2020-09-24T22:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:Demo.Qa.Tests.LoginPageTest@2133c8f8]" name="LoginTest" duration-ms="3988" started-at="2020-09-24T22:19:43Z" data-provider="getLoginTestData" finished-at="2020-09-24T22:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Demo.Qa.Tests.LoginPageTest@2133c8f8]" name="tearDown" is-config="true" duration-ms="1286" started-at="2020-09-24T22:19:47Z" finished-at="2020-09-24T22:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demo.Qa.Tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
